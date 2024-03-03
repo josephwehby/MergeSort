@@ -21,4 +21,4 @@
 - The framerate is currently set to 25 so make sure to use a reasonable number of bars or the video will be too quick.
 
 # For the TA
-For the example command that generates only a few frames run `./mergesort.sh 2 filename` and then look in the JGRFiles directory to see the images and jgr files it has generated. This will still try to ffmpeg but that will not impact the images and jgr files already created so you will still be able to see them. You will most likely get an error that ffmpeg is not installed.
+For the example command that generates only a few frames run `./mergesort.sh 2 filename` and then look in the JGRFiles directory to see the images and jgr files it has generated. This will still try to run ffmpeg but that will not impact the images and jgr files already created so you will still be able to see them. You will get an error that ffmpeg is not installed. Additionally, as requested, the Examples folder will contain a markdown file with links to the example videos uoploaded on YouTube.
