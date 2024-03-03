@@ -5,12 +5,12 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
+dir="JGRfiles"
 rm "${dir}"/*.*
 
-bin/mergesort "$1"
-
-dir="JGRfiles"
 output_dir="Output"
+
+bin/mergesort "$1"
 
 for file in "$dir"/*; do
   filename=$(basename "$file" | cut -d. -f1)
