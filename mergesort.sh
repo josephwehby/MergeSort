@@ -5,6 +5,8 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
+rm "${dir}"/*.*
+
 bin/mergesort "$1"
 
 dir="JGRfiles"
@@ -18,4 +20,3 @@ done
 
 ffmpeg -framerate 25 -i "${dir}/%d-ms.png" -vf scale=-2:1080 -pix_fmt yuv420p "${output_dir}/${2}.mp4"
 
-rm "${dir}"/*.*
