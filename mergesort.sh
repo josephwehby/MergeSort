@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$#" -ne 2 ]; then
-  echo "Usage: ./video.sh number_of_bars output_file_name"
+  echo "Usage: ./mergesort.sh number_of_bars output_file_name"
   exit 1
 fi
 

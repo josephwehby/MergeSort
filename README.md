@@ -12,4 +12,4 @@
 - you will also need ffmpeg, psd2pdf, and convert which can be installed with a package manager
 - clone the repo with `git clone`
 - run `make` to build the mergesort executable
-- run `./video.sh number_of_bars video_file_name`
+- run `./mergesort.sh number_of_bars video_file_name`
