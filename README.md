@@ -13,3 +13,9 @@
 - clone the repo with `git clone`
 - run `make` to build the mergesort executable
 - run `./mergesort.sh number_of_bars video_file_name`
+
+# Example Command
+`./mergesort.sh 30 random_bars`
+
+# Tips
+- The framerate is currently set to 25 so make sure to use a reasonable number of bars or the video will be too quick.

@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Werror
 
 SRC = src/merge_Sort.cpp
-EXEC = mergesort
+EXEC = bin/mergesort
 
 all: $(EXEC)
 

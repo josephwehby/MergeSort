@@ -5,7 +5,7 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
-./mergesort "$1"
+bin/mergesort "$1"
 
 dir="JGRfiles"
 output_dir="Output"
