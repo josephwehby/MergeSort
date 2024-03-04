@@ -17,6 +17,10 @@
 # Example Command
 - `./mergesort.sh 30 randombars` will sort 30 bars and save the animation to Output/randombars.mp4
 
+# Example Output
+- Example videos can be found in the Examples folder
+- you can either download the videos or click on the YouTube links located in Examples/examples.md
+
 # Tips
 - The framerate is currently set to 25 so make sure to use a reasonable number of bars or the video will be too quick.
 
