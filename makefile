@@ -9,7 +9,7 @@ all: $(EXEC)
 $(EXEC): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(EXEC)
 
-run_scripts: $(EXEC)
+examples: $(EXEC)
 	./mergesort.sh 5 output1
 	./mergesort.sh 10 output2
 	./mergesort.sh 15 output3
